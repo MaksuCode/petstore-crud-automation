@@ -74,7 +74,7 @@ public class TestGetPetById {
         return Stream.of(
                 Arguments.of("-12345", 404),
                 Arguments.of("", 405),
-                Arguments.of("abc", 405)
+                Arguments.of("abcd", 405)
         );
     }
 
