@@ -8,6 +8,9 @@ import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
+/**
+ * PetStoreService extends this class and use
+ */
 public class RestAssuredClient {
 
     String baseUrl ;

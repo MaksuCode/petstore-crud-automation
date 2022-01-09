@@ -9,6 +9,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * CRUD operations on /pet endpoint of PetStore API
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TestCrudOnPet {
 

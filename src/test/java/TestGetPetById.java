@@ -14,6 +14,9 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Tests on getPetById endpoint
+ */
 public class TestGetPetById {
 
     static PetStoreService petStoreService = new PetStoreService("https://petstore.swagger.io/v2");

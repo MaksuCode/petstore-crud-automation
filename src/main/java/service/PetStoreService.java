@@ -5,6 +5,9 @@ import io.restassured.response.Response;
 import model.objects.pet.Pet;
 import model.request.CreateOrUpdatePetRequestBody;
 
+/**
+ * PetStore API class that holds the endpoint methods to be used in test classes.
+ */
 public class PetStoreService extends RestAssuredClient {
 
 
